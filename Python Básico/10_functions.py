@@ -43,10 +43,10 @@ print_name_with_default("Gonzalo", "Argüello")
 print_name_with_default("Gonzalo", "Argüello", "GONZAARGUELLO")
 
 
-def print_text(*texts):
+def print_upper_texts(*texts):
     for text in texts:
-        print(text)
+        print(text.upper())
 
 
-print_text("Hola", "Python", "Test")
-print_text("Hola")
+print_upper_texts("Hola", "Python", "Test")
+print_upper_texts("Hola")
